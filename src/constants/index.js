@@ -41,10 +41,7 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "React + Tailwind Developer",
-      icon: mobile,
-    },
+
     {
       title: "Front-End Developer",
       icon: backend,
