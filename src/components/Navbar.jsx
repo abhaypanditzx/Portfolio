@@ -23,7 +23,7 @@ function Navbar() {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold curosor-pointer flex ">
-            Abhay &nbsp;<span className="sm:block hidden">| Portfolio</span>
+            Abhay &nbsp; <span className="sm:block hidden">| Portfolio</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

@@ -24,8 +24,8 @@ import threejs from "./tech/threejs.svg";
 
 import weebo from "./weebo.png";
 import weather from "./weather-app.png";
-import tripguide from "./tripguide.png";
-
+import fast from "./fast.png";
+import cafeina from "./cafeina.png";
 export {
   logo,
   backend,
@@ -50,5 +50,6 @@ export {
   threejs,
   weebo,
   weather,
-  tripguide,
+  fast,
+  cafeina
 };

@@ -17,8 +17,11 @@ import {
     docker,
     weebo,
     weather,
-    tripguide,
+    
     threejs,
+    fast ,
+    cafeina,
+
   } from "../assets";
   
   export const navLinks = [
@@ -27,7 +30,7 @@ import {
       title: "About",
     },
     {
-      id: "work",
+      id: "works",
       title: "Work",
     },
     {
@@ -133,6 +136,47 @@ import {
       ],
       image: weather,
       source_code_link: "https://github.com/abhaypanditzx/weather-web-app",
+    },
+    {
+      name: "cafeina",
+      description:
+        `
+       cafeina : Elevate your coffee experience at cafeina. Merging modern aesthetics with user-friendly design, our coffee website UI, crafted with React, promises a seamless journey for discovering and savoring your favorite brews.` ,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cafeina,
+      source_code_link: "https://github.com/abhaypanditzx/cafeina",
+    },
+    {
+      name: "fast race",
+      description:
+        `
+       Step into Style: Our online shoe-selling web app offers a dynamic and visually engaging user interface. Seamlessly blending form and function, our sleek design ensures an immersive shopping experience. With responsive navigation and visually stunning product displays, finding the perfect pair has never been more effortless. Explore the world of footwear with confidence and ease, courtesy of our cutting-edge web app UI."` ,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fast,
+      source_code_link: "https://github.com/abhaypanditzx/fast-race",
     }
   ];
   
